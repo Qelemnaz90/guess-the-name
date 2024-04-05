@@ -1,0 +1,78 @@
+body {
+background-image: url("./sources/trave.jpg");
+background-repeat: no-repeat;
+background-size: 1500px;
+}
+
+
+.div {
+    margin-left: 500px;
+    margin-top: 100px;
+    height: 400px;
+    width: 600px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: xx-large;
+
+}
+
+.input {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px ;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.par {
+    transition: transform 0.5s ease; 
+}
+
+.par.wrong {
+    color: red;
+    font-size: xx-large; 
+}
+
+.par.animate {
+    transform: rotateY(360deg);
+    color: green;
+    font-size: xx-large; 
+}
+
+
+
+
+@media only screen and (max-width: 420px) {
+
+    body{
+        background-color: blueviolet;
+        background-image: none;
+        }
+
+        .div {
+            margin-left: 50px;
+            margin-top: 100px;
+            height: 400px;
+            width: 600px;
+        }
+
+        .input {
+            width: 250px;
+            height: 50px;
+            border-radius: 20px ;
+            text-align: center;
+            font-size: x-large;
+            
+        }
+    
+}
